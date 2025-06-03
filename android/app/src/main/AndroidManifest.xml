@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.screen_analyzer_flutter_app"> <!-- Make sure this matches your app's package name -->
+    package="com.example.screen_analyzer_app"> <!-- Make sure this matches your app's package name -->
 
     <!-- Permissions for Internet access -->
     <uses-permission android:name="android.permission.INTERNET" />
