@@ -1,0 +1,29 @@
+name: screen_analyzer_flutter_app
+description: A Flutter app for screen analysis with AI.
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjusted for modern Dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1 # For making HTTP requests
+  image_picker: ^1.1.2 # For picking images (simulating screen capture/upload)
+  permission_handler: ^11.3.1 # For requesting permissions
+  speech_to_text: ^6.6.2 # For voice input
+  flutter_tts: ^4.0.2 # For text-to-speech output (AI responses)
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
