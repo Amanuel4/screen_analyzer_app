@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.1 # For making HTTP requests
+  flutter_screenutil: ^5.9.3
   image_picker: ^1.1.2 # For picking images (simulating screen capture/upload)
   permission_handler: ^11.3.1 # For requesting permissions
   speech_to_text: ^6.6.2 # For voice input
